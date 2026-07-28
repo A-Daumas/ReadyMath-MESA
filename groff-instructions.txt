@@ -1,0 +1,8 @@
+Here are the basic instructions on how to operate groff
+First create a file with the extension yourfilename.ms the ms extension is for the ms macros. (We will see what other macross we use to see how the final output looks like, then we pick our favorite)
+Every groff command beguines with a period and two letters in cabs like this .TL creates a title for example, run man groff for the manual.
+To compile a document run:
+groff -ms -e yourfilename.ms -Tpdf > yourfile.pdf
+The -Tpdf will output as a pdf file.
+Any questions let me know or view the example document I made.
+Hi Elias. If you see this remove this line of text!. Good bye!.
